@@ -1,0 +1,110 @@
+# ===================
+# SECRETS - NEVER COMMIT THESE
+# ===================
+
+# API keys and credentials
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*secret*
+*credential*
+*token*
+
+# Config files that often contain secrets
+config.local.*
+secrets.*
+credentials.*
+
+# Claude/Anthropic specific
+anthropic.key
+claude.key
+
+# ===================
+# OPERATING SYSTEM FILES
+# ===================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# ===================
+# LARGE FILES - DON'T BLOAT THE REPO
+# ===================
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Media (unless intentionally shared)
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+
+# Large data files
+*.csv
+*.json
+!shared/**/*.json
+*.sqlite
+*.db
+
+# ===================
+# EDITOR AND IDE FILES
+# ===================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# ===================
+# PYTHON (if used)
+# ===================
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# ===================
+# NODE (if used)
+# ===================
+
+node_modules/
+npm-debug.log
+
+# ===================
+# LOCAL OVERRIDES
+# ===================
+
+# Personal files that shouldn't sync
+*.local
+*.local.*
+personal/
+private/
+drafts/
