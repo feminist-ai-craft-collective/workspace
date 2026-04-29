@@ -1,0 +1,83 @@
+{
+  "location": {
+    "lat": 40.7128,
+    "lon": -74.006,
+    "label": "New York, NY (placeholder — run `pulse.py --set-zip <yours>` to set)"
+  },
+
+  "local_archive_dir": "",
+
+  "intensity_mm_per_hr": {
+    "drizzle_max": 0.5,
+    "light_steady_max": 2.5,
+    "heavy_max": 7.5
+  },
+
+  "vibe": {
+    "heatwave_min_days_at_90": 2,
+    "hot_stretch_threshold_f": 85,
+    "cold_snap_threshold_f": 40,
+    "cold_snap_min_days": 4,
+    "bumpy_consecutive_swing_f": 20,
+    "bumpy_week_range_f": 30,
+    "smooth_sailing_low_f": 70,
+    "smooth_sailing_high_f": 89,
+    "smooth_sailing_max_swing_f": 15,
+    "mild_low_f": 50,
+    "mild_high_f": 69,
+    "chilly_low_f": 40,
+    "chilly_high_f": 49
+  },
+
+  "rain_week": {
+    "heavy_min_days_60pct": 3,
+    "heavy_min_amount_in": 0.25,
+    "wet_min_days_40pct": 3,
+    "wet_min_days_60pct": 2,
+    "showers_max_days_30pct": 2,
+    "no_rain_max_pct": 20
+  },
+
+  "best_window": {
+    "min_temp_f": 45,
+    "max_precip_pct": 20,
+    "morning_start": 6,
+    "morning_end": 12,
+    "afternoon_start": 12,
+    "afternoon_end": 20
+  },
+
+  "rain_timing": {
+    "wet_threshold_pct": 30,
+    "all_day_threshold_hours": 10
+  },
+
+  "feels_like": {
+    "layering_swing_f": 8
+  },
+
+  "flags": {
+    "mowing_ok_today": {
+      "max_precip_pct": 30,
+      "max_gust_mph": 25
+    },
+    "rain_gear_needed": {
+      "trigger_pct": 30,
+      "window_start_hour": 8,
+      "window_end_hour": 20
+    },
+    "frost_overnight": {
+      "max_low_f": 34
+    },
+    "grill_weather": {
+      "min_high_f": 60,
+      "rain_window_start": 17,
+      "rain_window_end": 20,
+      "rain_trigger_pct": 30
+    },
+    "garage_work_ok": {
+      "min_high_f": 50,
+      "max_precip_pct": 50
+    }
+  }
+}
