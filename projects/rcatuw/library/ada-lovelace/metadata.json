@@ -1,0 +1,26 @@
+{
+  "subject": "Augusta Ada King, Countess of Lovelace (Ada Lovelace)",
+  "subject_dates": "1815-1852",
+  "researcher": "Rich Cleland (FAICC)",
+  "phase": "collection",
+  "status": "in-progress",
+  "research_angle": "Ada at the frontier of human-computer communication — discovering how to speak to machines to get productive results. Resonates with FAICC's ethos around directing AI systems.",
+  "sessions": [],
+  "total_sources": 0,
+  "source_counts": {
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0
+  },
+  "confidence": "low",
+  "phase_history": [
+    {
+      "phase": "collection",
+      "entered": "2026-04-19",
+      "notes": "Initial scaffolding complete"
+    }
+  ],
+  "persona_complete": false,
+  "cleanup_complete": false,
+  "notes": "Focus areas: the 1843 Notes on the Analytical Engine (especially Note G), Lovelace-Babbage correspondence, her philosophical framing of 'poetical science' and machine capability."
+}
